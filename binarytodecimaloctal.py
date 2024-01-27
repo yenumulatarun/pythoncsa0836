@@ -1,0 +1,5 @@
+binarynumber = input("Enter a binary number: ")
+decimalnumber = int(binarynumber, 2)
+octalnumber = oct(decimalnumber)
+print("the decimal number is:",decimalnumber)
+print("the octal number is:",octalnumber)
